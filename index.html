@@ -11,6 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./src/images/pokeball.png">
     <title>Pokédex</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,7 +40,7 @@
                     <li class="type-grass">Grama</li>
                     <li class="type-poison">Veneno</li>
                 </ul>
-                <p>Há uma semente de planta em suas costas desde o dia que este Pokémon nasce. A semente cresce lentamente.</p>
+                <p class="desc">Há uma semente de planta em suas costas desde o dia que este Pokémon nasce. A semente cresce lentamente.</p>
             </li>
 
             <li class="box-pokemon">
@@ -52,7 +53,7 @@
                     <li class="type-grass">Grama</li>
                     <li class="type-poison">Veneno</li>
                 </ul>
-                <p>Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé em suas patas traseiras.</p>
+                <p class="desc">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé em suas patas traseiras.</p>
             </li>
 
             <li class="box-pokemon">
@@ -65,7 +66,7 @@
                     <li class="type-grass">Grama</li>
                     <li class="type-poison">Veneno</li>
                 </ul>
-                <p>sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar energia solar.</p>
+                <p class="desc">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar energia solar.</p>
             </li>
 
             <li class="box-pokemon">
@@ -77,7 +78,7 @@
                 <ul class="types">
                     <li class="type-fire">Fogo</li>
                 </ul>
-                <p>Tem preferência por coisas quentes. Quando chove, diz-se que vapor jorra da ponta de sua cauda.</p>
+                <p class="desc">Tem preferência por coisas quentes. Quando chove, diz-se que vapor jorra da ponta de sua cauda.</p>
             </li>
 
             <li class="box-pokemon">
@@ -89,7 +90,7 @@
                 <ul class="types">
                     <li class="type-fire">Fogo</li>
                 </ul>
-                <p>Tem preferência por coisas quentes. Quando chove, diz-se que vapor jorra da ponta de sua cauda.</p>
+                <p class="desc">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.</p>
             </li>
 
             <li class="box-pokemon">
@@ -100,8 +101,9 @@
                 <img src="./src/images/charizard.gif" alt="Charizard" class="gif">
                 <ul class="types">
                     <li class="type-fire">Fogo</li>
+                    <li class="type-flying">Voador</li>
                 </ul>
-                <p>Tem preferência por coisas quentes. Quando chove, diz-se que vapor jorra da ponta de sua cauda.</p>
+                <p class="desc">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
             </li>
 
             <li class="box-pokemon">
@@ -111,9 +113,85 @@
                 </div>
                 <img src="./src/images/squirtle.gif" alt="Squirtle" class="gif">
                 <ul class="types">
-                    <li class="type-fire">Água</li>
+                    <li class="type-whater">Água</li>
                 </ul>
-                <p>Tem preferência por coisas quentes. Quando chove, diz-se que vapor jorra da ponta de sua cauda.</p>
+                <p class="desc">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+
+                <img src="./src/images/wartortle.gif" alt="Wartortle" class="gif" />
+
+                <ul class="tipos">
+                    <li class="type-whater">Água</li>
+                </ul>
+
+                <p class="desc">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+
+                <img src="./src/images/blastoise.gif" alt="Blastoise" class="gif" />
+
+                <ul class="tipos">
+                    <li class="type-whater">Água</li>
+                </ul>
+
+                <p class="desc">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+
+                <img src="./src/images/caterpie.gif" alt="Caterpie" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo-bug">Inseto</li>
+                </ul>
+
+                <p class="desc">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Metapod</span>
+                    <span>#011</span>
+                </div>
+
+                <img src="./src/images/metapod.gif" alt="Metapod" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo-bug">Inseto</li>
+                </ul>
+
+                <p class="desc">Está esperando o momento de evoluir. Nesta fase, só pode endurecer, por isso permanece imóvel para evitar o ataque.</p>
+            </li>
+
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Butterfree</span>
+                    <span>#012</span>
+                </div>
+
+                <img src="./src/images/butterfree.gif" alt="Butterfree" class="gif" />
+
+                <ul class="tipos">
+                    <li class="tipo-bug">Inseto</li>
+                    <li class="type-flying">Voador</li>
+                </ul>
+
+                <p class="desc">Em batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.</p>
             </li>
 
         </ul>
