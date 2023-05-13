@@ -1,7 +1,7 @@
 # pokedexApp
 Pokédex
 
-<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" min-width="350px" max-width="350px" width="350px" align="right" alt="Pokédex AzevedoNTC">
+<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" min-width="340px" max-width="340px" width="340px" align="right" alt="Pikachu">
 
 ⚡ Project developed in HTML | CSS | JavaScript for knowledge reinforcement performed during "Dev em Dobro" classes, consisting of a simple list of Pokémon.
 <br>
@@ -11,7 +11,8 @@ Pokédex
 <br>
 <a href="https://main.d1dmx7o5jjh2mc.amplifyapp.com/">⚡ My Pokédex Hosted</a>.
 <br>
+<br>
 <a href="https://www.pokemon.com/br/pokedex/">⚡ Pokemon BR</a>.
 <br>
+<br>
 <a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif">⚡ Poke Api</a>.
-

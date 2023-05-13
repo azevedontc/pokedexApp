@@ -7,630 +7,753 @@
 -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./src/icons/favicon.ico">
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/styles.css">
-    <link rel="stylesheet" href="./src/css/scrollbar.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500;1,800&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/icons/favicon.ico" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/scrollbar.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300;1,500;1,800&display=swap"
+      rel="stylesheet"
+    />
     <title>Pokédex</title>
-  
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="#">
-            <img src="./src/icons/pokeball.png" alt="pokeboll" class="logo">
-        </a>
-        <button id="button-theme">
-            <img src="./src/icons/sun.png" alt="sun" class="button">
-        </button>
+      <a href="#">
+        <img src="./src/icons/pokeball.png" alt="pokeboll" class="logo" />
+      </a>
+      <button id="button-theme">
+        <img src="./src/icons/sun.png" alt="sun" class="button" />
+      </button>
     </header>
     <main>
-        <ul class="list-pokemon">
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Bulbasaur</span>
-                    <span>#0001</span>
-                </div>
-                <img src="./src/images/bulbasaur.gif" alt="Bulbasaur" class="gif">
-                <ul class="types">
-                    <li class="type-grass">Grama</li>
-                    <li class="type-poison">Veneno</li>
-                </ul>
-                <p class="desc">Há uma semente de planta em suas costas desde o dia que este Pokémon nasce. A semente cresce lentamente.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Ivysaur</span>
-                    <span>#0002</span>
-                </div>
-                <img src="./src/images/ivysaur.gif" alt="Ivysaur" class="gif">
-                <ul class="types">
-                    <li class="type-grass">Grama</li>
-                    <li class="type-poison">Veneno</li>
-                </ul>
-                <p class="desc">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar em pé em suas patas traseiras.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Venusaur</span>
-                    <span>#0003</span>
-                </div>
-                <img src="./src/images/venusaur.gif" alt="Venusaur" class="gif">
-                <ul class="types">
-                    <li class="type-grass">Grama</li>
-                    <li class="type-poison">Veneno</li>
-                </ul>
-                <p class="desc">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar energia solar.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Charmander</span>
-                    <span>#0004</span>
-                </div>
-                <img src="./src/images/charmander.gif" alt="Charmander" class="gif">
-                <ul class="types">
-                    <li class="type-fire">Fogo</li>
-                </ul>
-                <p class="desc">Tem preferência por coisas quentes. Quando chove, diz-se que vapor jorra da ponta de sua cauda.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Charmeleon</span>
-                    <span>#0005</span>
-                </div>
-                <img src="./src/images/charmeleon.gif" alt="Charmeleon" class="gif">
-                <ul class="types">
-                    <li class="type-fire">Fogo</li>
-                </ul>
-                <p class="desc">Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Charizard</span>
-                    <span>#0006</span>
-                </div>
-                <img src="./src/images/charizard.gif" alt="Charizard" class="gif">
-                <ul class="types">
-                    <li class="type-fire">Fogo</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-                <p class="desc">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Squirtle</span>
-                    <span>#0007</span>
-                </div>
-                <img src="./src/images/squirtle.gif" alt="Squirtle" class="gif">
-                <ul class="types">
-                    <li class="type-whater">Água</li>
-                </ul>
-                <p class="desc">Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Wartortle</span>
-                    <span>#0008</span>
-                </div>
-
-                <img src="./src/images/wartortle.gif" alt="Wartortle" class="gif" />
-
-                <ul class="types">
-                    <li class="type-whater">Água</li>
-                </ul>
-
-                <p class="desc">É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Blastoise</span>
-                    <span>#0009</span>
-                </div>
-
-                <img src="./src/images/blastoise.gif" alt="Blastoise" class="gif" />
-
-                <ul class="types">
-                    <li class="type-whater">Água</li>
-                </ul>
-
-                <p class="desc">Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Caterpie</span>
-                    <span>#0010</span>
-                </div>
-
-                <img src="./src/images/caterpie.gif" alt="Caterpie" class="gif" />
-
-                <ul class="types">
-                    <li class="type-bug">Inseto</li>
-                </ul>
-
-                <p class="desc">Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Metapod</span>
-                    <span>#0011</span>
-                </div>
-
-                <img src="./src/images/metapod.gif" alt="Metapod" class="gif" />
-
-                <ul class="types">
-                    <li class="type-bug">Inseto</li>
-                </ul>
-
-                <p class="desc">Está esperando o momento de evoluir. Nesta fase, só pode endurecer, por isso permanece imóvel para evitar o ataque.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Butterfree</span>
-                    <span>#0012</span>
-                </div>
-
-                <img src="./src/images/butterfree.gif" alt="Butterfree" class="gif" />
-
-                <ul class="types">
-                    <li class="type-bug">Inseto</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-
-                <p class="desc">Em batalha, ele bate as asas em grande velocidade para liberar poeira altamente tóxica no ar.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Weedle</span>
-                    <span>#0013</span>
-                </div>
-
-                <img src="./src/images/weedle.gif" alt="Weedle" class="gif" />
-
-                <ul class="types">
-                    <li class="type-bug">Inseto</li>
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">Cuidado com o ferrão afiado em sua cabeça. Ele se esconde na grama e nos arbustos onde come folhas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Kakuna</span>
-                    <span>#0014</span>
-                </div>
-
-                <img src="./src/images/kakuna.gif" alt="Kakuna" class="gif" />
-
-                <ul class="types">
-                    <li class="type-bug">Inseto</li>
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">Capaz de se mover apenas ligeiramente. Quando em perigo, pode mostrar seu ferrão e envenenar seu inimigo.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Beedrill</span>
-                    <span>#0015</span>
-                </div>
-
-                <img src="./src/images/beedrill.gif" alt="Beedrill" class="gif" />
-
-                <ul class="types">
-                    <li class="type-bug">Inseto</li>
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">Tem três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados para espetar seu inimigo repetidamente.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Pidgey</span>
-                    <span>#0016</span>
-                </div>
-
-                <img src="./src/images/pidgey.gif" alt="Pidgey" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-
-                <p class="desc">Muito dócil. Se atacado, muitas vezes chuta areia para se proteger, em vez de revidar.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Pidgeotto</span>
-                    <span>#0017</span>
-                </div>
-
-                <img src="./src/images/pidgeotto.gif" alt="Pidgeotto" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-
-                <p class="desc">Este Pokémon está cheio de vitalidade. Ele voa constantemente em torno de seu grande território em busca de presas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Pidgeot</span>
-                    <span>#0018</span>
-                </div>
-
-                <img src="./src/images/pidgeot.gif" alt="Pidgeot" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-
-                <p class="desc">Este Pokémon voa na velocidade de Mach 2, buscando presas. Suas grandes garras são temidas como armas perversas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Rattata</span>
-                    <span>#0019</span>
-                </div>
-
-                <img src="./src/images/rattata.gif" alt="Rattata" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                </ul>
-
-                <p class="desc">Mastigará qualquer coisa com suas presas. Se você vir um, pode ter certeza de que mais 40 vivem na área.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Raticate</span>
-                    <span>#0020</span>
-                </div>
-
-                <img src="./src/images/raticate.gif" alt="Raticate" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                </ul>
-
-                <p class="desc">Suas patas traseiras são palmadas. Eles agem como nadadeiras, então podem nadar em rios e caçar presas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Spearow</span>
-                    <span>#0021</span>
-                </div>
-
-                <img src="./src/images/spearow.gif" alt="Spearow" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-
-                <p class="desc">Inepto em voar alto. No entanto, ele pode voar muito rápido para proteger seu território.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Fearow</span>
-                    <span>#0022</span>
-                </div>
-
-                <img src="./src/images/fearow.gif" alt="Fearow" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-flying">Voador</li>
-                </ul>
-
-                <p class="desc">Um Pokémon que remonta a muitos anos. Se sentir perigo, voa alto e para longe, instantaneamente.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Ekans</span>
-                    <span>#0023</span>
-                </div>
-
-                <img src="./src/images/ekans.gif" alt="Ekans" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">Quanto mais velho fica, mais cresce. À noite, envolve seu longo corpo nos galhos das árvores para descansar.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Arbok</span>
-                    <span>#0024</span>
-                </div>
-
-                <img src="./src/images/arbok.gif" alt="Arbok" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">Os padrões assustadores em sua barriga foram estudados. Seis variações foram confirmadas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Pikachu</span>
-                    <span>#0025</span>
-                </div>
-
-                <img src="./src/images/pikachu.gif" alt="Pikachu" class="gif" />
-
-                <ul class="types">
-                    <li class="type-eletric">Elétrico</li>
-                </ul>
-
-                <p class="desc">Quando está com raiva, descarrega imediatamente a energia armazenada nas bolsas de suas bochechas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Raichu</span>
-                    <span>#0026</span>
-                </div>
-
-                <img src="./src/images/raichu.gif" alt="Raichu" class="gif" />
-
-                <ul class="types">
-                    <li class="type-eletric">Elétrico</li>
-                </ul>
-
-                <p class="desc">Sua cauda descarrega eletricidade no chão, protegendo-o de choques.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Sandshrew</span>
-                    <span>#0027</span>
-                </div>
-
-                <img src="./src/images/sandshrew.gif" alt="Sandshrew" class="gif" />
-
-                <ul class="types">
-                    <li class="type-ground">Terra</li>
-                </ul>
-
-                <p class="desc">Adora banhar-se na areia de áreas secas e arenosas. Ao tomar banho de areia, o Pokémon se livra da sujeira e umidade grudadas em seu corpo.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Sandslash</span>
-                    <span>#0028</span>
-                </div>
-
-                <img src="./src/images/sandslash.gif" alt="Sandshrew" class="gif" />
-
-                <ul class="types">
-                    <li class="type-ground">Terra</li>
-                </ul>
-
-                <p class="desc">Quanto mais seca for a área em que Sandslash vive, mais duros e suaves serão os espinhos do Pokémon quando tocados.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Nidoran♀</span>
-                    <span>#0029</span>
-                </div>
-
-                <img src="./src/images/nidoran♀.gif" alt="Nidoran♀" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">As fêmeas são mais sensíveis aos cheiros do que os machos. Enquanto forrageiam, eles usam seus bigodes para verificar a direção do vento e ficar a favor dos predadores.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Nidorina</span>
-                    <span>#0030</span>
-                </div>
-
-                <img src="./src/images/nidorina.gif" alt="Nidorina" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">O chifre em sua cabeça está atrofiado. Acredita-se que isso aconteça para que os filhos de Nidorina não sejam cutucados enquanto a mãe os alimenta.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Nidoquenn</span>
-                    <span>#0031</span>
-                </div>
-
-                <img src="./src/images/nidoqueen.gif" alt="Nidoquenn" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                    <li class="type-ground">Terra</li>
-                </ul>
-
-                <p class="desc">Nidoqueen é melhor na defesa do que no ataque. Com escamas como armaduras, este Pokémon protegerá seus filhos de qualquer tipo de ataque.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Nidoran♂</span>
-                    <span>#0032</span>
-                </div>
-
-                <img src="./src/images/nidoran♂.gif" alt="Nidoran♂" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">O chifre na testa de um Nidoran masculino contém um poderoso veneno. Este é um Pokémon muito cauteloso, sempre esticando suas grandes orelhas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Nidorino</span>
-                    <span>#0033</span>
-                </div>
-
-                <img src="./src/images/nidorino.gif" alt="Nidorino" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                </ul>
-
-                <p class="desc">Com um chifre mais duro que diamante, este Pokémon anda por aí quebrando pedregulhos enquanto procura uma pedra da lua.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Nidoking</span>
-                    <span>#0034</span>
-                </div>
-
-                <img src="./src/images/nidoking.gif" alt="Nidoking" class="gif" />
-
-                <ul class="types">
-                    <li class="type-poison">Veneno</li>
-                    <li class="type-ground">Terra</li>
-                </ul>
-
-                <p class="desc">Quando fica furioso, é impossível controlar. Mas na presença de uma Nidoqueen com quem convive há muito tempo, Nidoking se acalma.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Clefairy</span>
-                    <span>#0035</span>
-                </div>
-
-                <img src="./src/images/clefairy.gif" alt="Clefairy" class="gif" />
-
-                <ul class="types">
-                    <li class="type-fairy">Fada</li>
-                </ul>
-
-                <p class="desc">Dizem que a felicidade virá para aqueles que virem uma reunião de Clefairy dançando sob a lua cheia.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Clefable</span>
-                    <span>#0036</span>
-                </div>
-
-                <img src="./src/images/clefable.gif" alt="Clefable" class="gif" />
-
-                <ul class="types">
-                    <li class="type-fairy">Fada</li>
-                </ul>
-
-                <p class="desc">Um tímido Pokémon fada que raramente é visto, ele corre e se esconde no momento em que detecta as pessoas.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Vulpix</span>
-                    <span>#0037</span>
-                </div>
-
-                <img src="./src/images/vulpix.gif" alt="Vulpix" class="gif" />
-
-                <ul class="types">
-                    <li class="type-fire">Fogo</li>
-                </ul>
-
-                <p class="desc">Enquanto jovem, tem seis lindas caudas. Quando cresce, várias novas caudas brotam.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Ninetales</span>
-                    <span>#0038</span>
-                </div>
-
-                <img src="./src/images/ninetales.gif" alt="Ninetales" class="gif" />
-
-                <ul class="types">
-                    <li class="type-fire">Fogo</li>
-                </ul>
-
-                <p class="desc">Diz-se que vive 1.000 anos e cada uma de suas caudas é carregada de poderes sobrenaturais.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Jigglypuff</span>
-                    <span>#0039</span>
-                </div>
-
-                <img src="./src/images/jigglypuff.gif" alt="Jigglypuff" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-fairy">Fada</li>
-                </ul>
-
-                <p class="desc">Quando seus olhos enormes vacilam, ele canta uma melodia misteriosamente reconfortante que embala seus inimigos para dormir.</p>
-            </li>
-
-            <li class="box-pokemon">
-                <div class="info">
-                    <span>Wigglytuff</span>
-                    <span>#0040</span>
-                </div>
-
-                <img src="./src/images/wigglytuff.gif" alt="Wigglytuff" class="gif" />
-
-                <ul class="types">
-                    <li class="type-normal">Normal</li>
-                    <li class="type-fairy">Fada</li>
-                </ul>
-
-                <p class="desc">Tem uma pelagem muito fina. Tome cuidado para não irritá-lo, ou ele pode inflar constantemente e bater com força.</p>
-            </li>
-
-        </ul>
+      <ul class="list-pokemon">
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Bulbasaur</span>
+            <span>#0001</span>
+          </div>
+          <img src="./src/images/bulbasaur.gif" alt="Bulbasaur" class="gif" />
+          <ul class="types">
+            <li class="type-grass">Grama</li>
+            <li class="type-poison">Veneno</li>
+          </ul>
+          <p class="desc">
+            Há uma semente de planta em suas costas desde o dia que este Pokémon
+            nasce. A semente cresce lentamente.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Ivysaur</span>
+            <span>#0002</span>
+          </div>
+          <img src="./src/images/ivysaur.gif" alt="Ivysaur" class="gif" />
+          <ul class="types">
+            <li class="type-grass">Grama</li>
+            <li class="type-poison">Veneno</li>
+          </ul>
+          <p class="desc">
+            Quando o bulbo em suas costas cresce, parece perder a capacidade de
+            ficar em pé em suas patas traseiras.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Venusaur</span>
+            <span>#0003</span>
+          </div>
+          <img src="./src/images/venusaur.gif" alt="Venusaur" class="gif" />
+          <ul class="types">
+            <li class="type-grass">Grama</li>
+            <li class="type-poison">Veneno</li>
+          </ul>
+          <p class="desc">
+            Sua planta floresce quando está absorvendo energia solar. Ele
+            permanece em movimento para buscar energia solar.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Charmander</span>
+            <span>#0004</span>
+          </div>
+          <img src="./src/images/charmander.gif" alt="Charmander" class="gif" />
+          <ul class="types">
+            <li class="type-fire">Fogo</li>
+          </ul>
+          <p class="desc">
+            Tem preferência por coisas quentes. Quando chove, diz-se que vapor
+            jorra da ponta de sua cauda.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Charmeleon</span>
+            <span>#0005</span>
+          </div>
+          <img src="./src/images/charmeleon.gif" alt="Charmeleon" class="gif" />
+          <ul class="types">
+            <li class="type-fire">Fogo</li>
+          </ul>
+          <p class="desc">
+            Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda
+            ardente e corta com garras afiadas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Charizard</span>
+            <span>#0006</span>
+          </div>
+          <img src="./src/images/charizard.gif" alt="Charizard" class="gif" />
+          <ul class="types">
+            <li class="type-fire">Fogo</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+          <p class="desc">
+            Ele cospe fogo que é quente o suficiente para derreter pedregulhos.
+            Pode causar incêndios florestais soprando chamas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Squirtle</span>
+            <span>#0007</span>
+          </div>
+          <img src="./src/images/squirtle.gif" alt="Squirtle" class="gif" />
+          <ul class="types">
+            <li class="type-whater">Água</li>
+          </ul>
+          <p class="desc">
+            Quando ele retrai seu longo pescoço em sua concha, ele esguicha água
+            com força vigorosa.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Wartortle</span>
+            <span>#0008</span>
+          </div>
+
+          <img src="./src/images/wartortle.gif" alt="Wartortle" class="gif" />
+
+          <ul class="types">
+            <li class="type-whater">Água</li>
+          </ul>
+
+          <p class="desc">
+            É reconhecido como um símbolo de longevidade. Se sua concha tem
+            algas, esse Wartortle é muito antigo.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Blastoise</span>
+            <span>#0009</span>
+          </div>
+
+          <img src="./src/images/blastoise.gif" alt="Blastoise" class="gif" />
+
+          <ul class="types">
+            <li class="type-whater">Água</li>
+          </ul>
+
+          <p class="desc">
+            Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em
+            uma pitada, ele se retirará dentro de sua concha.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Caterpie</span>
+            <span>#0010</span>
+          </div>
+
+          <img src="./src/images/caterpie.gif" alt="Caterpie" class="gif" />
+
+          <ul class="types">
+            <li class="type-bug">Inseto</li>
+          </ul>
+
+          <p class="desc">
+            Para proteção, ele libera um fedor horrível da antena em sua cabeça
+            para afastar os inimigos.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Metapod</span>
+            <span>#0011</span>
+          </div>
+
+          <img src="./src/images/metapod.gif" alt="Metapod" class="gif" />
+
+          <ul class="types">
+            <li class="type-bug">Inseto</li>
+          </ul>
+
+          <p class="desc">
+            Está esperando o momento de evoluir. Nesta fase, só pode endurecer,
+            por isso permanece imóvel para evitar o ataque.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Butterfree</span>
+            <span>#0012</span>
+          </div>
+
+          <img src="./src/images/butterfree.gif" alt="Butterfree" class="gif" />
+
+          <ul class="types">
+            <li class="type-bug">Inseto</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+
+          <p class="desc">
+            Em batalha, ele bate as asas em grande velocidade para liberar
+            poeira altamente tóxica no ar.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Weedle</span>
+            <span>#0013</span>
+          </div>
+
+          <img src="./src/images/weedle.gif" alt="Weedle" class="gif" />
+
+          <ul class="types">
+            <li class="type-bug">Inseto</li>
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            Cuidado com o ferrão afiado em sua cabeça. Ele se esconde na grama e
+            nos arbustos onde come folhas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Kakuna</span>
+            <span>#0014</span>
+          </div>
+
+          <img src="./src/images/kakuna.gif" alt="Kakuna" class="gif" />
+
+          <ul class="types">
+            <li class="type-bug">Inseto</li>
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            Capaz de se mover apenas ligeiramente. Quando em perigo, pode
+            mostrar seu ferrão e envenenar seu inimigo.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Beedrill</span>
+            <span>#0015</span>
+          </div>
+
+          <img src="./src/images/beedrill.gif" alt="Beedrill" class="gif" />
+
+          <ul class="types">
+            <li class="type-bug">Inseto</li>
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            Tem três ferrões venenosos nas patas dianteiras e na cauda. Eles são
+            usados para espetar seu inimigo repetidamente.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Pidgey</span>
+            <span>#0016</span>
+          </div>
+
+          <img src="./src/images/pidgey.gif" alt="Pidgey" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+
+          <p class="desc">
+            Muito dócil. Se atacado, muitas vezes chuta areia para se proteger,
+            em vez de revidar.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Pidgeotto</span>
+            <span>#0017</span>
+          </div>
+
+          <img src="./src/images/pidgeotto.gif" alt="Pidgeotto" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+
+          <p class="desc">
+            Este Pokémon está cheio de vitalidade. Ele voa constantemente em
+            torno de seu grande território em busca de presas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Pidgeot</span>
+            <span>#0018</span>
+          </div>
+
+          <img src="./src/images/pidgeot.gif" alt="Pidgeot" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+
+          <p class="desc">
+            Este Pokémon voa na velocidade de Mach 2, buscando presas. Suas
+            grandes garras são temidas como armas perversas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Rattata</span>
+            <span>#0019</span>
+          </div>
+
+          <img src="./src/images/rattata.gif" alt="Rattata" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+          </ul>
+
+          <p class="desc">
+            Mastigará qualquer coisa com suas presas. Se você vir um, pode ter
+            certeza de que mais 40 vivem na área.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Raticate</span>
+            <span>#0020</span>
+          </div>
+
+          <img src="./src/images/raticate.gif" alt="Raticate" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+          </ul>
+
+          <p class="desc">
+            Suas patas traseiras são palmadas. Eles agem como nadadeiras, então
+            podem nadar em rios e caçar presas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Spearow</span>
+            <span>#0021</span>
+          </div>
+
+          <img src="./src/images/spearow.gif" alt="Spearow" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+
+          <p class="desc">
+            Inepto em voar alto. No entanto, ele pode voar muito rápido para
+            proteger seu território.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Fearow</span>
+            <span>#0022</span>
+          </div>
+
+          <img src="./src/images/fearow.gif" alt="Fearow" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-flying">Voador</li>
+          </ul>
+
+          <p class="desc">
+            Um Pokémon que remonta a muitos anos. Se sentir perigo, voa alto e
+            para longe, instantaneamente.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Ekans</span>
+            <span>#0023</span>
+          </div>
+
+          <img src="./src/images/ekans.gif" alt="Ekans" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            Quanto mais velho fica, mais cresce. À noite, envolve seu longo
+            corpo nos galhos das árvores para descansar.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Arbok</span>
+            <span>#0024</span>
+          </div>
+
+          <img src="./src/images/arbok.gif" alt="Arbok" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            Os padrões assustadores em sua barriga foram estudados. Seis
+            variações foram confirmadas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Pikachu</span>
+            <span>#0025</span>
+          </div>
+
+          <img src="./src/images/pikachu.gif" alt="Pikachu" class="gif" />
+
+          <ul class="types">
+            <li class="type-eletric">Elétrico</li>
+          </ul>
+
+          <p class="desc">
+            Quando está com raiva, descarrega imediatamente a energia armazenada
+            nas bolsas de suas bochechas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Raichu</span>
+            <span>#0026</span>
+          </div>
+
+          <img src="./src/images/raichu.gif" alt="Raichu" class="gif" />
+
+          <ul class="types">
+            <li class="type-eletric">Elétrico</li>
+          </ul>
+
+          <p class="desc">
+            Sua cauda descarrega eletricidade no chão, protegendo-o de choques.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Sandshrew</span>
+            <span>#0027</span>
+          </div>
+
+          <img src="./src/images/sandshrew.gif" alt="Sandshrew" class="gif" />
+
+          <ul class="types">
+            <li class="type-ground">Terra</li>
+          </ul>
+
+          <p class="desc">
+            Adora banhar-se na areia de áreas secas e arenosas. Ao tomar banho
+            de areia, o Pokémon se livra da sujeira e umidade grudadas em seu
+            corpo.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Sandslash</span>
+            <span>#0028</span>
+          </div>
+
+          <img src="./src/images/sandslash.gif" alt="Sandshrew" class="gif" />
+
+          <ul class="types">
+            <li class="type-ground">Terra</li>
+          </ul>
+
+          <p class="desc">
+            Quanto mais seca for a área em que Sandslash vive, mais duros e
+            suaves serão os espinhos do Pokémon quando tocados.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Nidoran♀</span>
+            <span>#0029</span>
+          </div>
+
+          <img src="./src/images/nidoran♀.gif" alt="Nidoran♀" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            As fêmeas são mais sensíveis aos cheiros do que os machos. Enquanto
+            forrageiam, eles usam seus bigodes para verificar a direção do vento
+            e ficar a favor dos predadores.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Nidorina</span>
+            <span>#0030</span>
+          </div>
+
+          <img src="./src/images/nidorina.gif" alt="Nidorina" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            O chifre em sua cabeça está atrofiado. Acredita-se que isso aconteça
+            para que os filhos de Nidorina não sejam cutucados enquanto a mãe os
+            alimenta.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Nidoquenn</span>
+            <span>#0031</span>
+          </div>
+
+          <img src="./src/images/nidoqueen.gif" alt="Nidoquenn" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+            <li class="type-ground">Terra</li>
+          </ul>
+
+          <p class="desc">
+            Nidoqueen é melhor na defesa do que no ataque. Com escamas como
+            armaduras, este Pokémon protegerá seus filhos de qualquer tipo de
+            ataque.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Nidoran♂</span>
+            <span>#0032</span>
+          </div>
+
+          <img src="./src/images/nidoran♂.gif" alt="Nidoran♂" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            O chifre na testa de um Nidoran masculino contém um poderoso veneno.
+            Este é um Pokémon muito cauteloso, sempre esticando suas grandes
+            orelhas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Nidorino</span>
+            <span>#0033</span>
+          </div>
+
+          <img src="./src/images/nidorino.gif" alt="Nidorino" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+          </ul>
+
+          <p class="desc">
+            Com um chifre mais duro que diamante, este Pokémon anda por aí
+            quebrando pedregulhos enquanto procura uma pedra da lua.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Nidoking</span>
+            <span>#0034</span>
+          </div>
+
+          <img src="./src/images/nidoking.gif" alt="Nidoking" class="gif" />
+
+          <ul class="types">
+            <li class="type-poison">Veneno</li>
+            <li class="type-ground">Terra</li>
+          </ul>
+
+          <p class="desc">
+            Quando fica furioso, é impossível controlar. Mas na presença de uma
+            Nidoqueen com quem convive há muito tempo, Nidoking se acalma.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Clefairy</span>
+            <span>#0035</span>
+          </div>
+
+          <img src="./src/images/clefairy.gif" alt="Clefairy" class="gif" />
+
+          <ul class="types">
+            <li class="type-fairy">Fada</li>
+          </ul>
+
+          <p class="desc">
+            Dizem que a felicidade virá para aqueles que virem uma reunião de
+            Clefairy dançando sob a lua cheia.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Clefable</span>
+            <span>#0036</span>
+          </div>
+
+          <img src="./src/images/clefable.gif" alt="Clefable" class="gif" />
+
+          <ul class="types">
+            <li class="type-fairy">Fada</li>
+          </ul>
+
+          <p class="desc">
+            Um tímido Pokémon fada que raramente é visto, ele corre e se esconde
+            no momento em que detecta as pessoas.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Vulpix</span>
+            <span>#0037</span>
+          </div>
+
+          <img src="./src/images/vulpix.gif" alt="Vulpix" class="gif" />
+
+          <ul class="types">
+            <li class="type-fire">Fogo</li>
+          </ul>
+
+          <p class="desc">
+            Enquanto jovem, tem seis lindas caudas. Quando cresce, várias novas
+            caudas brotam.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Ninetales</span>
+            <span>#0038</span>
+          </div>
+
+          <img src="./src/images/ninetales.gif" alt="Ninetales" class="gif" />
+
+          <ul class="types">
+            <li class="type-fire">Fogo</li>
+          </ul>
+
+          <p class="desc">
+            Diz-se que vive 1.000 anos e cada uma de suas caudas é carregada de
+            poderes sobrenaturais.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Jigglypuff</span>
+            <span>#0039</span>
+          </div>
+
+          <img src="./src/images/jigglypuff.gif" alt="Jigglypuff" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-fairy">Fada</li>
+          </ul>
+
+          <p class="desc">
+            Quando seus olhos enormes vacilam, ele canta uma melodia
+            misteriosamente reconfortante que embala seus inimigos para dormir.
+          </p>
+        </li>
+
+        <li class="box-pokemon">
+          <div class="info">
+            <span>Wigglytuff</span>
+            <span>#0040</span>
+          </div>
+
+          <img src="./src/images/wigglytuff.gif" alt="Wigglytuff" class="gif" />
+
+          <ul class="types">
+            <li class="type-normal">Normal</li>
+            <li class="type-fairy">Fada</li>
+          </ul>
+
+          <p class="desc">
+            Tem uma pelagem muito fina. Tome cuidado para não irritá-lo, ou ele
+            pode inflar constantemente e bater com força.
+          </p>
+        </li>
+      </ul>
     </main>
-</body>
+  </body>
 </html>
