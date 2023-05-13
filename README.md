@@ -11,7 +11,9 @@ Pokédex
 <br>
 <a href="https://main.d1dmx7o5jjh2mc.amplifyapp.com/">⚡ My Pokédex Hosted</a>.
 <br>
+<br>
 <a href="https://www.pokemon.com/br/pokedex/">⚡ Pokemon BR</a>.
+<br>
 <br>
 <a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif">⚡ Poke Api</a>.
 
