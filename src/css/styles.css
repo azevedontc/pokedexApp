@@ -47,7 +47,7 @@ main .list-pokemon{
 
 main .box-pokemon{
     background-color: #d8e3ec;
-    width: 200px;
+    width: 210px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -90,6 +90,12 @@ main .box-pokemon .types{
     font-size: 16px;
 }
 
+main .box-pokemon .type-normal{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #9fa3ac;
+}
+
 main .box-pokemon .type-grass{
     padding: 8px;
     border-radius: 10px;
@@ -124,6 +130,24 @@ main .box-pokemon .type-flying{
     padding: 8px;
     border-radius: 10px;
     background-color: #87a8ee;
+}
+
+main .box-pokemon .type-eletric{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #eed535;
+}
+
+main .box-pokemon .type-ground{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #ab9842;
+}
+
+main .box-pokemon .type-fairy{
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fdb9e9;
 }
 
 main .desc{
