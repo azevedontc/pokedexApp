@@ -1,7 +1,7 @@
 # pokedexApp
 Pokédex
 
-<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" min-width="380px" max-width="380px" width="380px" align="right" alt="Pokédex AzevedoNTC">
+<img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" min-width="350px" max-width="350px" width="350px" align="right" alt="Pokédex AzevedoNTC">
 
 ⚡ Project developed in HTML | CSS | JavaScript for knowledge reinforcement performed during "Dev em Dobro" classes, consisting of a simple list of Pokémon.
 <br>
