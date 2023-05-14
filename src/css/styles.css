@@ -62,8 +62,8 @@ main .box-pokemon:hover{
     transform: scale(1.08);
 }
 
-.night-theme .box-pokemon{
-    background-color: #a8a8a8;
+.night-mode .box-pokemon{
+    background-color: #818181;
 }
 
 main .box-pokemon .info{

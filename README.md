@@ -9,10 +9,10 @@ Pokédex
 ⚡ Projeto desenvolvido em HTML | CSS | JavaScript para reforço de conhecimento realizado durante aulas da "Dev em Dobro", consiste em uma lista simples de Pokémons.
 <br>
 <br>
-<a href="https://main.d1dmx7o5jjh2mc.amplifyapp.com/">⚡ My Pokédex Hosted</a>.
+<a href="https://main.d1dmx7o5jjh2mc.amplifyapp.com/">⚡ My Pokédex Hosted</a>
 <br>
 <br>
-<a href="https://www.pokemon.com/br/pokedex/">⚡ Pokemon BR</a>.
+<a href="https://www.pokemon.com/br/pokedex/">⚡ Pokemon BR</a>
 <br>
 <br>
-<a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif">⚡ Poke Api</a>.
+<a href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif">⚡ Poke Api</a>
