@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 25px;
-}
+} 
 
 header .logo,
 header .button{
@@ -24,11 +24,30 @@ header .button{
 }
 
 header .logo:hover,
-header .button:hover{
+header .button:hover,
+header .pokeballs:hover{
     transform: scale(1.1);
 }
 
-#button-theme{
+header .pokeballs{
+    width: 125px;
+    height: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    z-index: 9999;
+    border: 3px solid #582965;
+}
+  
+#button-theme,
+#button-pokeballs,
+#button-pokeball{
     background: none;
     border: none;
     cursor: pointer;
