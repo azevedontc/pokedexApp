@@ -42,7 +42,7 @@ header .pokeballs{
     width: 100%;
     height: 5px;
     z-index: 9999;
-    border: 3px solid #582965;
+    border: 4px solid #582965;
 }
   
 #button-theme,
